@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Timer">
+      <UniqueIdentifier>{ba0d2cbb-9fe6-4f87-a191-99fb244b736b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_UnitTest">
+      <UniqueIdentifier>{9a53803e-854e-4982-ba11-02f6ba82a3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Trace">
+      <UniqueIdentifier>{f632e261-4f3d-4397-9a6f-9b2734d58054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Output">
+      <UniqueIdentifier>{4e626dde-101e-4caf-87e2-4a6e3b9cd0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMD">
+      <UniqueIdentifier>{c416aece-aebc-4d84-a50b-19d045dc36b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect4D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LERP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>_Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMDtest.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="LERP_SIMD.cpp">
+      <Filter>SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_SIMD.cpp">
+      <Filter>SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect4D_SIMD.cpp">
+      <Filter>SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceTest.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Trace.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTest.h">
+      <Filter>_UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>_Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect4D_SIMD.h">
+      <Filter>SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix_SIMD.h">
+      <Filter>SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="LERP_SIMD.h">
+      <Filter>SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="LERP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect4D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceTest.h">
+      <Filter>_UnitTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
